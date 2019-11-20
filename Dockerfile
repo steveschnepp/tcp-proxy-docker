@@ -1,4 +1,4 @@
-FROM alpine:3.10.1
+FROM alpine as a
 
 RUN apk add socat
 
